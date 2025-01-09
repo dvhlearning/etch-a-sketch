@@ -7,6 +7,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
+    border: 1px solid black;
 }
 .gridDiv {
     border: 1px solid black;
