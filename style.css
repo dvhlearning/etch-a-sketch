@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.gridContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+.gridDiv {
+    border: 1px solid black;
+    height: 98px;
+    width: 98px;
+    justify-content: space-between;
+}
