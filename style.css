@@ -1,17 +1,47 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
 h1 {
     text-align: center;
 }
 
 .gridContainer {
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    width: fit-content;
+    max-width: 960px;
     border: 1px solid black;
 }
 .gridDiv {
+    background-color: white;
     border: 1px solid black;
-    height: 98px;
-    width: 98px;
+    height: 58px;
+    width: 58px;
     justify-content: space-between;
+}
+.buttonContainer {
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+.buttonContainer button{
+    display: block;
+    margin: 1rem auto;
+    padding: 10px;
+    cursor: pointer;
+}
+button.sizeButton {
+    background-color: orange;
+}
+div.sizeDisplay {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: white;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 700;
 }
